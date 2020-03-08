@@ -1,0 +1,17 @@
+
+spring:
+  profiles:
+    active: dev
+
+---
+
+spring:
+  application:
+    name: jxdmsc-config-dev
+  profiles: dev
+
+---
+spring:
+  application:
+    name: jxdmsc-config-test
+  profiles: test
